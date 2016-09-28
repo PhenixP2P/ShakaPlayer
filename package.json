@@ -1,0 +1,23 @@
+{
+  "name": "shaka-player-bower",
+  "private": false,
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhenixP2P/ShakaPlayer.git"
+  },
+  "scripts": {
+    "preinstall": "npm prune",
+    "postinstall": "bower install --config.interactive=false",
+    "pretest": "npm install"
+  },
+  "dependencies": {
+    "shaka-player": "2.0.0"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "devDependencies": {
+    "bower": "1.7.9"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "shaka-player",
+  "description": "Shaka Player",
+  "keywords": [
+    "DASH",
+    "MPEG-DASH",
+    "Live"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/PhenixP2P/ShakaPlayer",
+  "private": false,
+  "main": "dist/shaka-player.compiled.js",
+  "moduleType": "amd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PhenixP2P/ShakaPlayer.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "ignore": [
+    "package.json",
+    ".*"
+  ]
+}
