@@ -12,10 +12,10 @@
     "pretest": "npm install"
   },
   "dependencies": {
-    "shaka-player": "2.0.0"
+    "shaka-player": "2.0.5"
   },
   "engines": {
-    "node": "4.4.5"
+    "node": "6.9.4"
   },
   "devDependencies": {
     "bower": "1.7.9"
